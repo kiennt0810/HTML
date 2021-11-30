@@ -1,0 +1,77 @@
+ 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.logo {
+    float: left;
+    width: 200px;
+}
+.picture{
+    padding: 15px;
+    max-width: 97%;
+    height: auto;
+}
+.text{
+    text-align: center;
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: rgb(8, 214, 8) ; 
+}
+.col-wrap {
+    display: table; 
+    width: 100%; 
+}
+
+.col {
+    display: table-cell;
+    padding: 1rem
+}
+.col:nth-child(even){
+    background-color: white;
+}
+.col:nth-child(odd){
+    background-color:white;
+}
+h3 {
+    text-align: center;
+    font-size: larger;
+    color: rgb(0, 206, 79);
+}
+.col .icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.col #phone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+p{
+    text-align: center;
+}
+.col-wrap {
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}

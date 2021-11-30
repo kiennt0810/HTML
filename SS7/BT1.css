@@ -1,0 +1,70 @@
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+label{
+    padding-right: 100px;
+}
+#row-fname #fname{
+    display: inline-block;
+    width: 77%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#row-lname #lname{
+    display: inline-block;
+    width: 77%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#row-gender .gender{
+    padding-right: 0 !important;
+}
+#row-gender #radio{
+    margin-left: 155px;
+}
+#row-country #country {
+    display: inline-block;
+    width: 79%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 20px;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+#row-subject #textarea{
+    margin-left: 180px;
+    border: none;
+}
+#row-submit .submit{
+    width: 10%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#row-submit #submit{
+    margin-left: 58rem;
+}
+#submit{
+    background-color: #4CAF50;
+}
+#submit:hover{
+    background-color: #45a049;
+}
+#reset{
+    background-color: #e72020;
+}
+#reset:hover{
+    background-color: #c51414;
+}

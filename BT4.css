@@ -1,0 +1,24 @@
+#header{
+    text-align: center;
+    color: red;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+#heading2{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+#content{
+    text-align: center;   
+}
+.new{
+    color: lightskyblue;
+}
+.highlight{
+    background-color: yellow;
+}
+#footer{
+    text-align: right;
+    background-color: lightgray;
+}

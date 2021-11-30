@@ -1,0 +1,10 @@
+li
+{
+    list-style-type: none;
+}
+ul li {
+    border-style: solid;
+    border-width: thin;
+    padding: 16px;
+    border-collapse: collapse;
+}

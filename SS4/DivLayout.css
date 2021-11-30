@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    height: 100vh;
+}
+div{
+    background-color: gray;
+    margin: 10px;
+}
+#header{
+    height: 10%;
+}
+#navigation{
+
+    height: 5%;
+}
+#footer{
+    height: 10%;
+}
+#main{
+    height: 75%;
+}

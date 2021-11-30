@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+}
+tr, th {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 8px;
+}
+tr, td {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: yellow;
+}

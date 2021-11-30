@@ -1,0 +1,17 @@
+/*combinator ap dung cho tat ca cac the h3 cua the div co class la test*/
+ /* div.test h3{
+    color: red;    
+ } */
+
+/*Combinator ap dung cho tat ca cac the la con truc tiep cua the div co class test*/
+/* div.test > h3{
+    color: red;
+} */
+
+/* div.test + h3{
+    color: red;
+} */
+
+div.test ~ h3{
+    color: red;
+}

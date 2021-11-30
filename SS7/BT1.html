@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS to style an HTML Form</title>
+    <link rel="stylesheet" href="BT1.css">
+</head>
+
+<body>
+    <div id="form">
+        <form action="/action_page.php" method="GET">
+            <div id="row-fname">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div id="row-lname">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <div id="row-gender">
+                <label class="gender" for="gender">Gender</label>
+                <div id="radio">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label class="gender" for="gender">Male</label>
+
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label class="gender" for="gender">Female</label>
+
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label class="gender" for="gender">Other</label>
+                </div>
+            </div>
+            <div id="row-country">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="vietnam">Vietnam</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+            <div id="row-subject">
+                <label for="subject">Subject</label>
+                <textarea name="textarea" id="textarea" cols="140" rows="12" placeholder="  Write Something.."></textarea>
+            </div>
+            <div id="row-submit">
+                <input class="submit" id="submit" type="submit" value="Submit">
+                <input class="submit" id="reset" type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
