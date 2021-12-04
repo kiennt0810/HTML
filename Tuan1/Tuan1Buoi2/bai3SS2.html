@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p1 {
+            text-decoration: underline;
+        }
+
+        #p3 {
+            animation: blinkingText 1.2s infinite;
+        }
+
+        @keyframes blinkingText {
+            0% {
+                color: #000;
+            }
+
+            49% {
+                color: #000;
+            }
+
+            60% {
+                color: transparent;
+            }
+
+            99% {
+                color: transparent;
+            }
+
+            100% {
+                color: #000;
+            }
+        }
+        #p4{
+            text-transform: capitalize;
+        }
+        #p5{
+            text-transform: uppercase;
+        }
+        #p6{
+            text-transform: lowercase;
+        }
+        #p7{
+            text-shadow: rgb(91, 181, 211);
+        }
+    </style>
+</head>
+
+<body>
+    <p id="p1">This will be underline</p>
+    <s id="p2">This will be striked through</s>
+    <p id="p3">This text will have blinking effect</p>
+    <p id="p4">This will be capitalized</p>
+    <p id="p5">this will be in uppercase</p>
+    <p id="p6">This Will Be In Lowercase</p>
+    <p id="p7">Shadow</p>
+</body>
+
+</html>
