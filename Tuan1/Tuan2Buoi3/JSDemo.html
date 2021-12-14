@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 15px;
+            width: fit-content;
+        }
+
+        label {
+            padding-left: 30px;
+        }
+
+        #row-fname #fname {
+            display: inline-block;
+            width: 50%;
+            padding: 12px 20px;
+            margin-left: 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #row-lname #lname {
+            display: inline-block;
+            width: 52%;
+            padding: 12px 20px;
+            margin-left: 50px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #hello {
+            margin-left: 130px;
+            padding: 10px;
+            color: rgb(250, 36, 36);
+            background-color: rgb(100, 212, 9);
+        }
+
+        #hello:hover {
+            background-color: rgb(50, 73, 204);
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form">
+        <form action=" " method="get">
+            <h1>Buổi 6</h1>
+            <div id="row-fname">
+                <label for="fname">Họ Tên</label>
+                <input type="text" id="fname" name="firstname" placeholder="Họ đệm..">
+            </div>
+            <div id="row-lname">
+                <label for="lname">Tên</label>
+                <input type="text" id="lname" name="lastname" placeholder="Tên..">
+            </div>
+            <div>
+                <p id="fullname"><button id="hello" onclick="sayHello()">Chào</button></p>
+            </div>
+        </form>
+
+    </div>
+    <script>
+        function sayHello() {
+            let nameInput = document.getElementById('fname').value +" "+ document.getElementById('lname').value;
+            let p = document.getElementById('fullname');
+
+            p.textContent = 'Xin Chào ' + nameInput;
+        }
+    </script>
+</body>
+
+</html>
